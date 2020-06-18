@@ -9,7 +9,6 @@ import {GlobalProvider} from './context/GlobalState'
   function App(props) {
   return (
     <GlobalProvider>
-    {/* <div> */}
      <Header />
      <div className="container">
      <Balance/>
@@ -17,7 +16,6 @@ import {GlobalProvider} from './context/GlobalState'
      <AccountSummary/>
      <TransactionalHistory/>
      <AddTransaction/>
-     {/* </div> */}
     </GlobalProvider>
   );
 }

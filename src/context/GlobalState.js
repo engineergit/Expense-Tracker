@@ -1,4 +1,3 @@
-
 import React , {createContext, useReducer} from 'react';
 import AppReducer from './AppReducer'
 //initial state
@@ -21,11 +20,11 @@ export const GlobalProvider = ({children})=>
             {
             transactions:state.transactions
             }
-        }>
+            }>
             {children}
             </GlobalContext.Provider>
-    )
-    }
+        )
+}
     
     //dispatch msg :sends data how we want create any state    
     //it tellse reducer that button is clicked action trigger
